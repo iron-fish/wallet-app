@@ -2,7 +2,6 @@ import { FC } from 'react'
 import {
   Box,
   Button,
-  DropdownArrow,
   Flex,
   HexFish,
   Icon,

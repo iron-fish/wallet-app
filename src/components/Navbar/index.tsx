@@ -36,15 +36,16 @@ export const Navbar = () => {
   return (
     <Flex
       bg={isLightMode ? C.WHITE : C.BLACK}
-      height="100%"
-      maxHeight="100vh"
+      height="100vh"
+      maxHeight="1043px"
       p="1rem"
       w={{ base: '88px', sm: '263px' }}
       transition="width 0.3s ease-out"
-      position="fixed"
+      position="sticky"
       left="0"
       top="0"
       flexDirection="column"
+      alignSelf="flex-start"
       alignItems="center"
       justifyContent="space-between"
       zIndex={100}
